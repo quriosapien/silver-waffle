@@ -29,7 +29,7 @@ const routes = [
     component: () => import(/* webpackChunkName: "p-router" */ '../views/Router.vue')
   },
   {
-    path: '/vuex',
+    path: '/vuex/:genre?',
     name: 'Vuex',
     component: () => import(/* webpackChunkName: "p-vuex" */ '../views/Vuex.vue')
   },
