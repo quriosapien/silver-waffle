@@ -5,26 +5,8 @@
   </main>
 </template>
 
-<script>
-import GreetUser from '@/components/GreetUser'
+<script src="./js/components.js"></script>
 
-export default {
-  name: 'Components',
-  components: {
-    GreetUser
-  },
-  data: () => ({
-    user: 'Bruce Wayne'
-  }),
-  methods: {
-    toggleMessageListener (payload) {
-      console.log(' @@ \'toggle-message\' event emitted from child component with following payload')
-      console.log(payload)
-    }
-  }
-}
-</script>
-
-<style>
+<style scoped>
 
 </style>
