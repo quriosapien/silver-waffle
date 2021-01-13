@@ -1,3 +1,9 @@
 export default {
-  name: 'Counter'
+  name: 'Counter',
+  props: {
+    count: {
+      type: Number,
+      required: true
+    }
+  }
 }

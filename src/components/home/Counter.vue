@@ -4,17 +4,7 @@
   </section>
 </template>
 
-<script>
-export default {
-  name: 'Counter',
-  props: {
-    count: {
-      type: Number,
-      required: true
-    }
-  }
-}
-</script>
+<script src="./js/counter.js"></script>
 
 <style scoped>
 .count {
