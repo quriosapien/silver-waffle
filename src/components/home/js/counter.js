@@ -1,3 +1,5 @@
+// @vue/component
+
 export default {
   name: 'Counter',
   props: {

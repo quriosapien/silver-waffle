@@ -1,3 +1,5 @@
+// @vue/component
+
 import GreetUser from '@/components/GreetUser'
 
 export default {
